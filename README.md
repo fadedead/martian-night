@@ -32,12 +32,12 @@ These are my Arch Linux dotfiles inspired by the Tokyo Night color scheme in VSC
 | [maim](https://aur.archlinux.org/packages/maim-git) | Screenshot tool |
 | [Xwallpaper](https://aur.archlinux.org/packages/xwallpaper-git) | Used by setbg to set wallpaper |
 | [discord](https://archlinux.org/packages/community/x86_64/discord) | All-in-one voice and text chat |
-| [better discord](https://betterdiscord.app) | Tokyo Night theme for discord |
+| [better discord](https://betterdiscord.app) | Themeing discord |
 | [spotify](https://aur.archlinux.org/packages/spotify) | Music streaming |
 | [polybar spotify moudule](https://github.com/mihirlad55/polybar-spotify-module) | Allows spotify media control through polybar |
 
 
-### Script and config
+### Scripts and config
 
 - Tokyo Night color schemes for Neovim and kitty are taken from [here](https://github.com/enkia/tokyo-night-vscode-theme).
 
