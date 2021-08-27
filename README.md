@@ -20,7 +20,7 @@ My Arch Linux dotfiles inspired by the Tokyo Night theme on VSCode
 | [polybar](https://aur.archlinux.org/packages/polybar) | Status bar |
 | [dmenu](https://tools.suckless.org/dmenu/) | Suckless dynamic menu |
 | [kitty](https://archlinux.org/packages/community/x86_64/kitty) | Terminal |
-| [neovim](https://archlinux.org/packages/community/x86_64/neovim) | Terminal text editor |
+| [neovim](https://archlinux.org/packages/community/x86_64/neovim) | Terminal based text editor |
 | [fonts](https://aur.archlinux.org/packages/nerd-fonts-git) | Nerd, Awesome and Hack fonts |
 
 
@@ -30,7 +30,7 @@ My Arch Linux dotfiles inspired by the Tokyo Night theme on VSCode
 | Name  | Description |
 |---|---|
 | [brave](https://aur.archlinux.org/packages/brave-bin) | Browser |
-| [lf](https://aur.archlinux.org/packages/lf) | Terminal Filemanager |
+| [lf](https://aur.archlinux.org/packages/lf) | Terminal based filemanager |
 | [maim](https://aur.archlinux.org/packages/maim-git) | Screenshot tool |
 | [Xwallpaper](https://aur.archlinux.org/packages/xwallpaper-git) | Used by setbg to set wallpaper |
 | [discord](https://archlinux.org/packages/community/x86_64/discord) | All-in-one voice and text chat |
