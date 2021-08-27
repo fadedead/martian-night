@@ -1,6 +1,11 @@
 # Martian Night
 These are my Arch Linux dotfiles inspired by the Tokyo Night color scheme in VSCode.
 
+| | |
+|---|---|
+| <img src="Screenshots/pic-selected-210827-1715-24.png" width=100% height=100% > | <img src="Screenshots/pic-selected-210827-1747-06.png" width=100% height=100%> |
+| <img src="Screenshots/pic-selected-210827-1732-41.png" width=100% height=100%>  | <img src="Screenshots/pic-selected-210827-1722-36.png" width=100% height=100%> |
+
 
 
 ### Required Packages
