@@ -1,0 +1,28 @@
+#! /bin/sh
+
+
+#Starts polybar
+~/.config/polybar/launch.sh &
+
+
+#Restores Xresources
+xrdb ~/.config/.Xresources &
+
+
+#Restore last set wallpaper
+setbg &
+
+#You can add more workspaces here. I only like having five
+bspc monitor -d I II III IV V
+
+
+#Bspwm settings
+bspc config border_width         4
+bspc config window_gap           11
+bspc config focused_border_color "#d9534f"
+bspc config normal_border_color  "#f6dfe3"
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_follows_pointer true
+
