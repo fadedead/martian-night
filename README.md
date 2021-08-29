@@ -18,10 +18,11 @@ My Arch Linux dotfiles inspired by the Tokyo Night theme on VSCode
 | [bspwm](https://archlinux.org/packages/community/x86_64/bspwm) | Window Manager  |
 | [sxhkd](https://aur.archlinux.org/packages/sxhkd-git) | Hotkey daemon  |
 | [polybar](https://aur.archlinux.org/packages/polybar) | Status bar |
-| [dmenu](https://tools.suckless.org/dmenu/) | Suckless dynamic menu |
+| [dmenu](https://tools.suckless.org/dmenu/) | Suckless dynamic menu (already in .config) |
 | [kitty](https://archlinux.org/packages/community/x86_64/kitty) | Terminal |
 | [neovim](https://archlinux.org/packages/community/x86_64/neovim) | Terminal based text editor |
 | [fonts](https://aur.archlinux.org/packages/nerd-fonts-git) | Nerd, Awesome and Hack fonts |
+| [dunst](https://aur.archlinux.org/packages/dunst-git) | Notification daemon (already in .config) |
 
 
 ### Additional Packages
