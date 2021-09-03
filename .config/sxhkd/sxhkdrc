@@ -89,6 +89,11 @@ super + shift + d
 super + c
 	code
 
+# GUI filemanager
+super + shift + e
+	pcmanfm
+
+
 
 
 #
