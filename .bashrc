@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 
 #Alias for confiles
-alias polcol='nvim ~/.config/polybar/config'
+alias polcon='nvim ~/.config/polybar/config'
 alias keycon='nvim ~/.config/sxhkd/sxhkdrc'
 alias bspcon='nvim ~/.config/bspwm/bspwmrc'
 
