@@ -1,0 +1,8 @@
+#!/bin/sh
+
+case "$(printf "Refresh bspwm\\nQuit bspwm\\nRestart\\nShutdown" | dmenu -l 6 -i -p "Power options:")" in
+	"Refresh bspwm") pkill -USR1 -x sxhkd && bspc wm -r ;;
+	"Quit bspwm") bspc quit ;;
+	"Restart") restart now ;;
+	"Shutdown") shutdown now ;;
+esac
