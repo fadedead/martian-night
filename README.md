@@ -21,7 +21,7 @@ My Arch Linux dotfiles inspired by the Tokyo Night theme on VSCode
 | [dmenu](https://tools.suckless.org/dmenu/) | Suckless dynamic menu (already in .config) |
 | [kitty](https://archlinux.org/packages/community/x86_64/kitty) | Terminal |
 | [neovim](https://archlinux.org/packages/community/x86_64/neovim) | Terminal based text editor |
-| [fonts](https://aur.archlinux.org/packages/nerd-fonts-git) | Nerd, Awesome and Hack fonts |
+| [fonts]() | Nerd, Awesome and Hack fonts |
 | [dunst](https://aur.archlinux.org/packages/dunst-git) | Notification daemon (already in .config) |
 
 
