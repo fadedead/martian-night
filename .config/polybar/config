@@ -51,14 +51,14 @@ border-bottom-color = #1a1b26
 border-top-margin = 3
 border-right-padding = 1
 
-font-0 = "Iosevka Extrabold:style=Bold:size=13;3"
-font-1 = "Iosevka Extrabold:style=Bold:size=13;3"
+font-0 = "Hack Nerd Font:style=Bold:size=13;3"
+font-1 = "Hack Nerd Font:style=Regular:size=13;6"
 font-2 = "Iosevka Nerd Font:pixelsize=13;3"
 
 modules-left = bspwm
 modules-center = spotify previous playpause next 
 modules-right = cpu temp memory pulseaudio date time
-module-margin = 1 
+module-margin = 0
 
 [settings]
 throttle-output = 5
@@ -73,18 +73,18 @@ pin-workspaces = true
 enable-click = true
 fuzzy-match = true
 enable-scroll = false
-label-focused =  
+label-focused = 
 label-focused-foreground = #f7768e
-label-focused-padding = 2
-label-occupied =  
+label-focused-padding = 1
+label-occupied = 
 label-occupied-foreground = #c0caf5
-label-occupied-padding = 2
-label-urgent =  
+label-occupied-padding = 1
+label-urgent = 
 label-urgent-foreground = #c0caf5
-label-urgent-padding = 2
-label-empty =   
+label-urgent-padding = 1
+label-empty = 
 label-empty-foreground = #c0caf5
-label-empty-padding = 2
+label-empty-padding = 1
 
 ;===================================================================
 
@@ -94,7 +94,7 @@ format-font = 2
 ; Default
 hook-0 = echo ""
 ; When spotify active
-hook-1 = echo "ﭣ"
+hook-1 = echo " ﭣ "
 click-left = "spotifyctl -q previous"
 format-foreground = #7aa2f7
 
@@ -105,7 +105,7 @@ format-font = 2
 ; Default
 hook-0 = echo ""
 ; When spotify active
-hook-1 = echo "ﭡ  "
+hook-1 = echo " ﭡ "
 click-left = "spotifyctl -q next"
 format-foreground = #7aa2f7
 
@@ -116,9 +116,9 @@ format-font = 2
 ; Default
 hook-0 = echo ""
 ; Playing
-hook-1 = echo ""
+hook-1 = echo "  "
 ; Paused
-hook-2 = echo "奈"
+hook-2 = echo " 奈 "
 click-left = "spotifyctl -q playpause"
 format-foreground = #e0af68
 
@@ -127,7 +127,7 @@ type = custom/ipc
 ; Default
 hook-0 = echo ""
 ; Playing/paused show song name and artist
-hook-1 = spotifyctl -q status --format '  [ %artist%: %title% ]'
+hook-1 = spotifyctl -q status --format ' [ %artist%: %title% ]'
 format-foreground = #9ece6a
 
 
@@ -145,7 +145,7 @@ interval = 0.5
 ;   <bar-load>
 ;   <ramp-load>
 ;   <ramp-coreload>
-format = [   <label>
+format = [  <label>    
 format-foreground = #ff9e64
 ; Available tokens:
 ;   %percentage% (default) - total cpu load
@@ -158,9 +158,9 @@ label = %percentage%%
 [module/temp]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 60
+warn-temperature = 70
 format-foreground = #ff9e64
-format =    <label> ]
+format =  ,  <label> ]
 label = %temperature-c%
 
 
@@ -168,18 +168,18 @@ label = %temperature-c%
 [module/memory]
 type = internal/memory
 interval = 2
-format = [ ﬙  <label> ]
-;label = %percentage_used%%
-label = %gb_used%
+format = [ ﬙ <label> ]
+label = %percentage_used%%
+;label = %gb_used%
 format-foreground = #bb9af7
 
 
 
 [module/pulseaudio]
 type = internal/pulseaudio
-format-volume = [ <ramp-volume>  <label-volume> ]
+format-volume = [ <ramp-volume> <label-volume> ]
 format-muted-prefix = [ ﱝ
-label-muted =  Muted ]
+label-muted = Muted ]
 format-volume-foreground = #7aa2f7
 format-muted-foreground = #7aa2f7
 ;format-volume-background = #414868
@@ -193,7 +193,7 @@ ramp-volume-2 = 墳
 [module/date]
 type = internal/date
 date = %d-%m-%Y
-format =[   <label> ]
+format =[  <label> ]
 label = %date%
 format-foreground = #e0af68
 
@@ -203,7 +203,7 @@ format-foreground = #e0af68
 type = internal/date
 time = %I:%M
 date = %d-%m-%Y
-format = [   <label> ]
+format = [  <label> ]
 label = %time%
 ;format-background = #a9b1d6
 format-foreground = #f7768e 
