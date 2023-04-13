@@ -4,11 +4,14 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
  /usr/lib/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
+ /usr/include/glib-2.0/glib/glib-visibility.h \
  /usr/include/glib-2.0/glib/garray.h \
  /usr/include/glib-2.0/glib/gasyncqueue.h \
  /usr/include/glib-2.0/glib/gthread.h \
- /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h \
- /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
+ /usr/include/glib-2.0/glib/gatomic.h \
+ /usr/include/glib-2.0/glib/glib-typeof.h \
+ /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h \
+ /usr/include/glib-2.0/glib/gutils.h \
  /usr/include/glib-2.0/glib/gbacktrace.h \
  /usr/include/glib-2.0/glib/gbase64.h \
  /usr/include/glib-2.0/glib/gbitlock.h \
@@ -32,6 +35,7 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
  /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h \
  /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h \
  /usr/include/glib-2.0/glib/gunicode.h \
+ /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gkeyfile.h \
  /usr/include/glib-2.0/glib/gmappedfile.h \
  /usr/include/glib-2.0/glib/gmarkup.h \
@@ -39,6 +43,7 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
  /usr/include/glib-2.0/glib/gvariant.h \
  /usr/include/glib-2.0/glib/gvarianttype.h \
  /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/gpathbuf.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
@@ -51,7 +56,6 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
  /usr/include/glib-2.0/glib/gsequence.h \
  /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
  /usr/include/glib-2.0/glib/gspawn.h \
- /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gstringchunk.h \
  /usr/include/glib-2.0/glib/gstrvbuilder.h \
  /usr/include/glib-2.0/glib/gtestutils.h \
@@ -74,10 +78,12 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
 /usr/lib/glib-2.0/include/glibconfig.h:
 /usr/include/glib-2.0/glib/gmacros.h:
 /usr/include/glib-2.0/glib/gversionmacros.h:
+/usr/include/glib-2.0/glib/glib-visibility.h:
 /usr/include/glib-2.0/glib/garray.h:
 /usr/include/glib-2.0/glib/gasyncqueue.h:
 /usr/include/glib-2.0/glib/gthread.h:
 /usr/include/glib-2.0/glib/gatomic.h:
+/usr/include/glib-2.0/glib/glib-typeof.h:
 /usr/include/glib-2.0/glib/gerror.h:
 /usr/include/glib-2.0/glib/gquark.h:
 /usr/include/glib-2.0/glib/gutils.h:
@@ -111,6 +117,7 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
 /usr/include/glib-2.0/glib/gslist.h:
 /usr/include/glib-2.0/glib/gstring.h:
 /usr/include/glib-2.0/glib/gunicode.h:
+/usr/include/glib-2.0/glib/gstrfuncs.h:
 /usr/include/glib-2.0/glib/gkeyfile.h:
 /usr/include/glib-2.0/glib/gmappedfile.h:
 /usr/include/glib-2.0/glib/gmarkup.h:
@@ -118,6 +125,7 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
 /usr/include/glib-2.0/glib/gvariant.h:
 /usr/include/glib-2.0/glib/gvarianttype.h:
 /usr/include/glib-2.0/glib/goption.h:
+/usr/include/glib-2.0/glib/gpathbuf.h:
 /usr/include/glib-2.0/glib/gpattern.h:
 /usr/include/glib-2.0/glib/gprimes.h:
 /usr/include/glib-2.0/glib/gqsort.h:
@@ -134,7 +142,6 @@ src/wayland/libgwater-wayland.o: src/wayland/libgwater-wayland.c \
 /usr/include/glib-2.0/glib/gshell.h:
 /usr/include/glib-2.0/glib/gslice.h:
 /usr/include/glib-2.0/glib/gspawn.h:
-/usr/include/glib-2.0/glib/gstrfuncs.h:
 /usr/include/glib-2.0/glib/gstringchunk.h:
 /usr/include/glib-2.0/glib/gstrvbuilder.h:
 /usr/include/glib-2.0/glib/gtestutils.h:

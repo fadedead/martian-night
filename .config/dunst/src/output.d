@@ -3,11 +3,14 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/lib/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
+ /usr/include/glib-2.0/glib/glib-visibility.h \
  /usr/include/glib-2.0/glib/garray.h \
  /usr/include/glib-2.0/glib/gasyncqueue.h \
  /usr/include/glib-2.0/glib/gthread.h \
- /usr/include/glib-2.0/glib/gatomic.h /usr/include/glib-2.0/glib/gerror.h \
- /usr/include/glib-2.0/glib/gquark.h /usr/include/glib-2.0/glib/gutils.h \
+ /usr/include/glib-2.0/glib/gatomic.h \
+ /usr/include/glib-2.0/glib/glib-typeof.h \
+ /usr/include/glib-2.0/glib/gerror.h /usr/include/glib-2.0/glib/gquark.h \
+ /usr/include/glib-2.0/glib/gutils.h \
  /usr/include/glib-2.0/glib/gbacktrace.h \
  /usr/include/glib-2.0/glib/gbase64.h \
  /usr/include/glib-2.0/glib/gbitlock.h \
@@ -31,6 +34,7 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h \
  /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h \
  /usr/include/glib-2.0/glib/gunicode.h \
+ /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gkeyfile.h \
  /usr/include/glib-2.0/glib/gmappedfile.h \
  /usr/include/glib-2.0/glib/gmarkup.h \
@@ -38,6 +42,7 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/gvariant.h \
  /usr/include/glib-2.0/glib/gvarianttype.h \
  /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/gpathbuf.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
@@ -50,7 +55,6 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/gsequence.h \
  /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
  /usr/include/glib-2.0/glib/gspawn.h \
- /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gstringchunk.h \
  /usr/include/glib-2.0/glib/gstrvbuilder.h \
  /usr/include/glib-2.0/glib/gtestutils.h \
@@ -79,6 +83,7 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gobject/gbinding.h \
  /usr/include/glib-2.0/gobject/gobject.h \
  /usr/include/glib-2.0/gobject/gtype.h \
+ /usr/include/glib-2.0/gobject/gobject-visibility.h \
  /usr/include/glib-2.0/gobject/gvalue.h \
  /usr/include/glib-2.0/gobject/gparam.h \
  /usr/include/glib-2.0/gobject/gclosure.h \
@@ -86,9 +91,11 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gobject/gmarshal.h \
  /usr/include/glib-2.0/gobject/gboxed.h \
  /usr/include/glib-2.0/gobject/glib-types.h \
+ /usr/include/glib-2.0/gobject/gbindinggroup.h \
  /usr/include/glib-2.0/gobject/genums.h \
  /usr/include/glib-2.0/gobject/glib-enumtypes.h \
  /usr/include/glib-2.0/gobject/gparamspecs.h \
+ /usr/include/glib-2.0/gobject/gsignalgroup.h \
  /usr/include/glib-2.0/gobject/gsourceclosure.h \
  /usr/include/glib-2.0/gobject/gtypemodule.h \
  /usr/include/glib-2.0/gobject/gtypeplugin.h \
@@ -97,7 +104,9 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
  /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h \
  /usr/include/glib-2.0/gio/gio.h /usr/include/glib-2.0/gio/giotypes.h \
- /usr/include/glib-2.0/gio/gioenums.h /usr/include/glib-2.0/gio/gaction.h \
+ /usr/include/glib-2.0/gio/gioenums.h \
+ /usr/include/glib-2.0/gio/gio-visibility.h \
+ /usr/include/glib-2.0/gio/gaction.h \
  /usr/include/glib-2.0/gio/gactiongroup.h \
  /usr/include/glib-2.0/gio/gactiongroupexporter.h \
  /usr/include/glib-2.0/gio/gactionmap.h \
@@ -147,6 +156,8 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gio/gdbusproxy.h \
  /usr/include/glib-2.0/gio/gdbusserver.h \
  /usr/include/glib-2.0/gio/gdbusutils.h \
+ /usr/include/glib-2.0/gio/gdebugcontroller.h \
+ /usr/include/glib-2.0/gio/gdebugcontrollerdbus.h \
  /usr/include/glib-2.0/gio/gdrive.h \
  /usr/include/glib-2.0/gio/gdtlsclientconnection.h \
  /usr/include/glib-2.0/gio/gdtlsconnection.h \
@@ -171,6 +182,7 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gio/gsocketaddress.h \
  /usr/include/glib-2.0/gio/gioenumtypes.h \
  /usr/include/glib-2.0/gio/giomodule.h /usr/include/glib-2.0/gmodule.h \
+ /usr/include/glib-2.0/gmodule/gmodule-visibility.h \
  /usr/include/glib-2.0/gio/gioscheduler.h \
  /usr/include/glib-2.0/gio/glistmodel.h \
  /usr/include/glib-2.0/gio/gliststore.h \
@@ -193,6 +205,7 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gio/gpollableinputstream.h \
  /usr/include/glib-2.0/gio/gpollableoutputstream.h \
  /usr/include/glib-2.0/gio/gpollableutils.h \
+ /usr/include/glib-2.0/gio/gpowerprofilemonitor.h \
  /usr/include/glib-2.0/gio/gpropertyaction.h \
  /usr/include/glib-2.0/gio/gproxy.h \
  /usr/include/glib-2.0/gio/gproxyaddress.h \
@@ -238,6 +251,10 @@ src/output.o: src/output.c src/output.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/gio/gtlsinteraction.h \
  /usr/include/glib-2.0/gio/gtlspassword.h \
  /usr/include/glib-2.0/gio/gtlsserverconnection.h \
+ /usr/include/glib-2.0/gio/gunixconnection.h \
+ /usr/include/glib-2.0/gio/gunixcredentialsmessage.h \
+ /usr/include/glib-2.0/gio/gunixfdlist.h \
+ /usr/include/glib-2.0/gio/gunixsocketaddress.h \
  /usr/include/glib-2.0/gio/gvfs.h /usr/include/glib-2.0/gio/gvolume.h \
  /usr/include/glib-2.0/gio/gzlibcompressor.h \
  /usr/include/glib-2.0/gio/gzlibdecompressor.h \
@@ -258,10 +275,12 @@ src/output.h:
 /usr/lib/glib-2.0/include/glibconfig.h:
 /usr/include/glib-2.0/glib/gmacros.h:
 /usr/include/glib-2.0/glib/gversionmacros.h:
+/usr/include/glib-2.0/glib/glib-visibility.h:
 /usr/include/glib-2.0/glib/garray.h:
 /usr/include/glib-2.0/glib/gasyncqueue.h:
 /usr/include/glib-2.0/glib/gthread.h:
 /usr/include/glib-2.0/glib/gatomic.h:
+/usr/include/glib-2.0/glib/glib-typeof.h:
 /usr/include/glib-2.0/glib/gerror.h:
 /usr/include/glib-2.0/glib/gquark.h:
 /usr/include/glib-2.0/glib/gutils.h:
@@ -295,6 +314,7 @@ src/output.h:
 /usr/include/glib-2.0/glib/gslist.h:
 /usr/include/glib-2.0/glib/gstring.h:
 /usr/include/glib-2.0/glib/gunicode.h:
+/usr/include/glib-2.0/glib/gstrfuncs.h:
 /usr/include/glib-2.0/glib/gkeyfile.h:
 /usr/include/glib-2.0/glib/gmappedfile.h:
 /usr/include/glib-2.0/glib/gmarkup.h:
@@ -302,6 +322,7 @@ src/output.h:
 /usr/include/glib-2.0/glib/gvariant.h:
 /usr/include/glib-2.0/glib/gvarianttype.h:
 /usr/include/glib-2.0/glib/goption.h:
+/usr/include/glib-2.0/glib/gpathbuf.h:
 /usr/include/glib-2.0/glib/gpattern.h:
 /usr/include/glib-2.0/glib/gprimes.h:
 /usr/include/glib-2.0/glib/gqsort.h:
@@ -318,7 +339,6 @@ src/output.h:
 /usr/include/glib-2.0/glib/gshell.h:
 /usr/include/glib-2.0/glib/gslice.h:
 /usr/include/glib-2.0/glib/gspawn.h:
-/usr/include/glib-2.0/glib/gstrfuncs.h:
 /usr/include/glib-2.0/glib/gstringchunk.h:
 /usr/include/glib-2.0/glib/gstrvbuilder.h:
 /usr/include/glib-2.0/glib/gtestutils.h:
@@ -355,6 +375,7 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gobject/gbinding.h:
 /usr/include/glib-2.0/gobject/gobject.h:
 /usr/include/glib-2.0/gobject/gtype.h:
+/usr/include/glib-2.0/gobject/gobject-visibility.h:
 /usr/include/glib-2.0/gobject/gvalue.h:
 /usr/include/glib-2.0/gobject/gparam.h:
 /usr/include/glib-2.0/gobject/gclosure.h:
@@ -362,9 +383,11 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gobject/gmarshal.h:
 /usr/include/glib-2.0/gobject/gboxed.h:
 /usr/include/glib-2.0/gobject/glib-types.h:
+/usr/include/glib-2.0/gobject/gbindinggroup.h:
 /usr/include/glib-2.0/gobject/genums.h:
 /usr/include/glib-2.0/gobject/glib-enumtypes.h:
 /usr/include/glib-2.0/gobject/gparamspecs.h:
+/usr/include/glib-2.0/gobject/gsignalgroup.h:
 /usr/include/glib-2.0/gobject/gsourceclosure.h:
 /usr/include/glib-2.0/gobject/gtypemodule.h:
 /usr/include/glib-2.0/gobject/gtypeplugin.h:
@@ -375,6 +398,7 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gio/gio.h:
 /usr/include/glib-2.0/gio/giotypes.h:
 /usr/include/glib-2.0/gio/gioenums.h:
+/usr/include/glib-2.0/gio/gio-visibility.h:
 /usr/include/glib-2.0/gio/gaction.h:
 /usr/include/glib-2.0/gio/gactiongroup.h:
 /usr/include/glib-2.0/gio/gactiongroupexporter.h:
@@ -425,6 +449,8 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gio/gdbusproxy.h:
 /usr/include/glib-2.0/gio/gdbusserver.h:
 /usr/include/glib-2.0/gio/gdbusutils.h:
+/usr/include/glib-2.0/gio/gdebugcontroller.h:
+/usr/include/glib-2.0/gio/gdebugcontrollerdbus.h:
 /usr/include/glib-2.0/gio/gdrive.h:
 /usr/include/glib-2.0/gio/gdtlsclientconnection.h:
 /usr/include/glib-2.0/gio/gdtlsconnection.h:
@@ -451,6 +477,7 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gio/gioenumtypes.h:
 /usr/include/glib-2.0/gio/giomodule.h:
 /usr/include/glib-2.0/gmodule.h:
+/usr/include/glib-2.0/gmodule/gmodule-visibility.h:
 /usr/include/glib-2.0/gio/gioscheduler.h:
 /usr/include/glib-2.0/gio/glistmodel.h:
 /usr/include/glib-2.0/gio/gliststore.h:
@@ -474,6 +501,7 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gio/gpollableinputstream.h:
 /usr/include/glib-2.0/gio/gpollableoutputstream.h:
 /usr/include/glib-2.0/gio/gpollableutils.h:
+/usr/include/glib-2.0/gio/gpowerprofilemonitor.h:
 /usr/include/glib-2.0/gio/gpropertyaction.h:
 /usr/include/glib-2.0/gio/gproxy.h:
 /usr/include/glib-2.0/gio/gproxyaddress.h:
@@ -519,6 +547,10 @@ src/x11/../notification.h:
 /usr/include/glib-2.0/gio/gtlsinteraction.h:
 /usr/include/glib-2.0/gio/gtlspassword.h:
 /usr/include/glib-2.0/gio/gtlsserverconnection.h:
+/usr/include/glib-2.0/gio/gunixconnection.h:
+/usr/include/glib-2.0/gio/gunixcredentialsmessage.h:
+/usr/include/glib-2.0/gio/gunixfdlist.h:
+/usr/include/glib-2.0/gio/gunixsocketaddress.h:
 /usr/include/glib-2.0/gio/gvfs.h:
 /usr/include/glib-2.0/gio/gvolume.h:
 /usr/include/glib-2.0/gio/gzlibcompressor.h:
